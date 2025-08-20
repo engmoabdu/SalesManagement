@@ -1,0 +1,56 @@
+# Mendix generated content
+# These are produced when running locally or building packages
+/deployment/
+/**/*.mpr.lock
+
+# Mendix caches and logs (varies by Studio Pro version)
+.mendix-cache/
+.mendix-log/
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Editors/IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Node / front-end tooling (widgets/themes)
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnp.*
+
+# Java / build artifacts (if any local builds)
+*.class
+*.jar.original
+*.war
+*.ear
+hs_err_pid*.log
+
+# Archives and temp
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+*.temp
+*.bak
+~$*
+*.orig
+
+# Keep important Mendix sources committed
+# (Do NOT ignore these — they are intentionally left tracked):
+# /javasource/
+# /javascriptsource/
+# /theme/
+# /userlib/
+# /resources/
+# /widgets/
